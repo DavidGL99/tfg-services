@@ -11,7 +11,6 @@ import ual.tfg.reviewservice.service.SecurityService;
 
 @Controller
 @RequestMapping("/review")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ReviewController {
 
     @Autowired

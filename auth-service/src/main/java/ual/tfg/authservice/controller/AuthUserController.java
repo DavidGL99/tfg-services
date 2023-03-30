@@ -11,7 +11,6 @@ import ual.tfg.authservice.service.UserService;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class AuthUserController {
 
     @Autowired

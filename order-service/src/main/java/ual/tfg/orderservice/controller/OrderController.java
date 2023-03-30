@@ -15,7 +15,6 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/order")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class OrderController {
     @Autowired
     OrderService orderService;
