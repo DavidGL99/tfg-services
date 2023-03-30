@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ual.tfg.orderservice.dto.TokenDto;
 
-@FeignClient(name = "auth-service", url = "http://localhost:8080")
+@FeignClient(name = "auth-service")
 public interface AuthFeignClient {
 
     @PostMapping("/auth/validate")
