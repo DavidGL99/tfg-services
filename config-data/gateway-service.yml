@@ -1,0 +1,43 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url: 
+      default-zone: http://localhost:8761/eureka
+  instance: 
+    hostname: localhost
+
+spring: 
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: auth-service
+          uri: lb://auth-service
+          predicates: 
+            - path=/auth/**
+        
+        - id: cart-service
+          uri: lb://cart-service
+          predicates: 
+            - path=/cart/**
+        
+        - id: order-service
+          uri: lb://order-service
+          predicates: 
+            - path=/order/**
+        
+        - id: product-service
+          uri: lb://product-service
+          predicates: 
+            - path=/product/**
+        
+        - id: review-service
+          uri: lb://review-service
+          predicates: 
+            - path=/review/**
