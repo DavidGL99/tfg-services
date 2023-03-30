@@ -10,7 +10,7 @@ eureka:
   instance: 
     hostname: localhost
 
-spring: 
+spring:
   cloud:
     gateway:
       discovery:
@@ -19,25 +19,21 @@ spring:
       routes:
         - id: auth-service
           uri: lb://auth-service
-          predicates: 
-            - path=/auth/**
-        
+          predicates:
+            - Path=/auth/**
         - id: cart-service
           uri: lb://cart-service
-          predicates: 
-            - path=/cart/**
-        
+          predicates:
+            - Path=/cart/**
         - id: order-service
           uri: lb://order-service
-          predicates: 
-            - path=/order/**
-        
+          predicates:
+            - Path=/order/**
         - id: product-service
           uri: lb://product-service
-          predicates: 
-            - path=/product/**
-        
+          predicates:
+            - Path=/product/**
         - id: review-service
           uri: lb://review-service
-          predicates: 
-            - path=/review/**
+          predicates:
+            - Path=/review/**
