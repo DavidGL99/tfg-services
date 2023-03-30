@@ -4,6 +4,7 @@ package ual.tfg.productservice.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter

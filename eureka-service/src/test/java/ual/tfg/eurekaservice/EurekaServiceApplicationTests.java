@@ -1,9 +1,10 @@
-package ual.tfg.productservice;
+package ual.tfg.eurekaservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-class ProductServiceApplicationTests {
+@SpringBootTest
+class EurekaServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

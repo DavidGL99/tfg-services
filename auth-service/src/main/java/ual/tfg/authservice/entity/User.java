@@ -1,8 +1,10 @@
 package ual.tfg.authservice.entity;
 
+
 import lombok.*;
 
 import javax.persistence.*;
+
 
 @NoArgsConstructor
 @AllArgsConstructor
