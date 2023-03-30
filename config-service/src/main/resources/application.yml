@@ -1,5 +1,5 @@
 server:
-  port: 8085
+  port: 8086
 
 spring:
   cloud:
@@ -8,7 +8,5 @@ spring:
         git:
           uri: https://github.com/DavidGL99/tfg-services
           searchPaths: config-data
-          username: ${GIT_USER}
-          password: ${GIT_PASS}
-          default-label: main
+          default-label: master
 
