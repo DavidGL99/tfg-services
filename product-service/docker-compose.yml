@@ -6,8 +6,8 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - "DATABASE_NAME=postgres"
-  postgres:
+      - "DATABASE_NAME=producto"
+  producto:
     image: postgres:14.1-alpine
     ports:
       - '5433:5432'
@@ -16,7 +16,7 @@ services:
       - "POSTGRES_PASSWORD=root"
 
     volumes:
-      - ./db:/var/lib/db/postgres
+      - ./db:/var/lib/db/producto
       - ./sql/product.sql:/data/application/init.sql
 
     command: --init-file /data/application/init.sql
