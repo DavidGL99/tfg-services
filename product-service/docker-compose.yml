@@ -17,9 +17,7 @@ services:
 
     volumes:
       - ./db:/var/lib/db/producto
-      - ./sql/product.sql:/data/application/init.sql
-
-    command: --init-file /data/application/init.sql
+      - ./sql/product.sql::/docker-entrypoint-initdb.d/init.sql"
 
     expose:
       - 5432
