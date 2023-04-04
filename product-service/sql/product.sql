@@ -1,5 +1,5 @@
 DROP TABLE IF EXISTS producto;
-
+CREATE SCHEMA tfg
 CREATE TABLE tfg.producto (
 	id serial4 NOT NULL,
 	categoria varchar(255) NULL,
