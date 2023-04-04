@@ -1,8 +1,3 @@
-
-DROP DATABASE IF EXISTS producto;
-CREATE DATABASE producto;
-USE producto;
-
 DROP TABLE IF EXISTS producto;
 
 CREATE TABLE tfg.producto (
