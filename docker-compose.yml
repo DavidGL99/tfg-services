@@ -1,12 +1,12 @@
 version: '3'
 services:
-  product-service:
+  productservice:
     build: ./product-service
     environment:
       - "DATABASE_NAME=producto"
-      - CONFIG_HOST=config-service
-      - EUREKA_HOST=eureka-service
-      - WAIT_HOSTS=eureka-service:8761
+      - CONFIG_HOST= config
+      - EUREKA_HOST= eureka
+      - WAIT_HOSTS= eureka:8761
     networks:
       - local
   producto:
@@ -27,13 +27,13 @@ services:
       - 5432
 
 
-  config-service:
+  config:
     build: ./config-service
     networks:
       - local
     expose:
       - 8086
-  eureka-service:
+  eureka:
     build: ./eureka-service
     environment:
       - CONFIG_HOST=config-service
