@@ -1,4 +1,4 @@
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil - ASUS VivoBook F1605PA-MB090W, 16" WUXGA, Intel® Core™ i7-11370H, 16GB RAM, 512GB SSD, Iris® Xe Graphics, W11H','899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102806874'),
 	 ('portatiles','Portátil - HP 14s-dq5001ns, 14" Full HD, Intel® Core™ i5-1235U, 8GB RAM, 512GB SSD, Iris® Xᵉ, W11 H','649','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102839724'),
 	 ('portatiles','Portátil - HP 15S-FQ2150NS, 15.6 " FHD, Intel® Core™ i3-1115G4, 8GB RAM, 256GB SSD, UHD Graphics, Sin sistema operativo, Plata','449','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95078111'),
@@ -9,7 +9,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil  - F515EA-EJ3060W ASUS, 15,6 ", Full-HD, Intel® Core™ i7, 16 GB, 512 GB, Intel Iris Xe Graphics, Windows 11 Home Gris','745','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_94347605'),
 	 ('portatiles','APPLE MacBook Air (2020), 13.3" Retina, Chip M1 de Apple, 8 GB, 256 GB SSD, MacOS, Teclado Magic Keyboard Touch ID, Plata','1099','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87203671'),
 	 ('portatiles','Convertible 2 en 1 - ASUS Vivobook TP1400KA-EC040WS, 14" Full HD, Intel® Celeron® N4500, 4GB RAM, 128GB eMMC, UHD Graphics, W11H','439','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93616099');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','Convertible 2 en 1 - Lenovo IdeaPad Flex 5 14ALC7, 14" WUXGA, AMD Ryzen™ 5 5500U, 16GB RAM, 512GB SSD, Radeon™ Graphics, Windows 11 Home','829','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103265631'),
 	 ('portatiles','APPLE MacBook Air (2022), 13,6" Retina, Chip M2 de Apple, GPU 8 Núcleos, 8 GB, 256 GB SSD, macOS, Teclado Magic Keyboard Touch ID, Negro','1369','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94617159'),
 	 ('televisores','TV OLED 42" - LG OLED42C24LA, OLED 4K, Procesador α9 Gen5 AI Processor 4K, Smart TV, DVB-T2 (H.265), Negro','1199','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100933160'),
@@ -20,7 +20,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43" - Panasonic TX-43LX650E, HDR 4K, High contrast, Smart TV, DVB-T2 (H.265), Negro','429','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99671224'),
 	 ('televisores','TV LED 43" - LG 43NANO766QA, UHD 4K, Procesador Inteligente α5 Gen5 AI Processor 4K, Smart TV, DVB-T2 (H.265), Azul Oscuro Ceniza','555','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100944343'),
 	 ('televisores','TV LED 43" - LG 43UQ76906LE, UHD 4K, Procesador Inteligente α5 Gen5 AI Processor 4K, Smart TV, DVB-T2 (H.265), Blanco','449','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100946230');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43" - Sony 43X73K, 4K HDR, Smart TV (AndroidTV) con YouTube, Netflix, HBO, Disney…, Bravia Engine, Dolby Atmos, Chromecast, Asistente de Google','566','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100861564'),
 	 ('televisores','TV LED 43" - LG 43UQ91006LA, UHD 4K, Procesador Inteligente α5 Gen5 AI Processor 4K, Smart TV, DVB-T2 (H.265), Azul Oscura Ceniza','529','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100947281'),
 	 ('televisores','TV LED 43" - Samsung UE43AU7175UXXC, UHD 4K, Crystal UHD, Smart TV, HDR10+, Tizen, Dolby Digital Plus, Titan Gray','350','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99381415'),
@@ -31,7 +31,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('smartphones','Móvil - Samsung Galaxy A13, Negro, 128 GB, 4 GB RAM, 6.6" Full HD+, MediaTek Octa-Core, 5000 mAh, Android 12','199','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95198287'),
 	 ('smartphones','Móvil - Xiaomi Redmi Note 10 Pro, Gris Onix, 256 GB, 8 GB RAM, 6.67 " Full HD+, Snapdragon 732G, 5020 mAh, Android','309','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98898054'),
 	 ('smartphones','Móvil - Xiaomi Redmi Note 11 Pro 5G, Gris Grafito, 128GB, 8GB, 6.67" FHD+, Snapdragon 695, 5000 mAh, Android','359','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_92119990');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('smartphones','APPLE iPhone 13, Medianoche, 128 GB, 5G, 6.1" OLED Super Retina XDR, Chip A15 Bionic, iOS','859','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_91289781'),
 	 ('smartphones','Móvil - Samsung Galaxy A34, Black, 256 GB, 8 GB RAM, 6.6 " FHD+, Mediatek Dimensity 1080 Octa-Core, 5000 mAh, Android 13','449','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103611587'),
 	 ('smartphones','Móvil - Samsung Galaxy A54 5G, White, 256 GB, 8 GB RAM, 6.4" Full HD+, Exynos 1380, 5000 mAh, Android','549','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103610998'),
@@ -42,7 +42,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('consolas','Consola - Sony PlayStation 5 Standard (2 Mandos DualSense™ incluidos), 825 GB, 4K HD, Negro y Blanco','609','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102611624'),
 	 ('consolas','Consola - Sony PS5 Digital Edition C Chassis, 825 GB, 4K, Blanco y Negro','449.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102608355'),
 	 ('consolas','Consola - Sony PS5 Digital, 825 GB, 4K UHD, Blanco + Juego God of War Ragnarok (código descarga)','523.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100810151');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('consolas','Consola - Nintendo Switch con mandos Joy-Con Rojos, Super Mario Odyssey en código descargable y hoja de pegatinas, Ed. Limitada, 32 GB, Negro','329','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103330284'),
 	 ('consolas','Consola - Microsoft Xbox Series X + Juego Forza Horizon 5 Premium Eldition, 1 TB SSD, Negro','548','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101913427'),
 	 ('consolas','Consola - Sony PS5 Stand, 825 GB, 4K UHD Blu ray, Blanco + Juego God Of War: Ragnarok (código descarga)','620','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100810149'),
@@ -53,7 +53,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('consolas','Consola - Microsoft Xbox Series S 512 GB Gilded Hunter Bundle + Fornite, Rocket  League, Fall Guys, Blanco','280','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100289560'),
 	 ('ordenadores','PC sobremesa - HP M01-F2050ns, Intel® Core™ i5-12400 , 16GB RAM, 512GB SSD, UHD 730, W11 Home, Negro','729','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99401778'),
 	 ('ordenadores','All in One - HP 27-cb0006ns, 27" FHD, AMD Ryzen™ 3 5300U, 8GB RAM, 512GB SSD, AMD Radeon™, W11H','679','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_91802431');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ordenadores','All in one - HP  24-cb0024ns, 23.8" Full HD, AMD Ryzen™ 5 5500U, 16GB RAM, 512GB SSD, AMD Radeon™, W11 Home, Blanco','799','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96186389'),
 	 ('ordenadores','PC sobremesa - HP M01-F2003ns Mini Torre, Intel® Core™ i3-10105, 8GB RAM, 512GB SSD, UHD, Sin sistema operativo, Negro','479','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98945686'),
 	 ('ordenadores','All in one - HP 24-CB1007NS, 23.8" Full HD, Intel® Core™ i5-1235U, 16GB RAM, 512GB SSD, Iris® Xᵉ, W11 H, Blanco','899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99077695'),
@@ -64,7 +64,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC sobremesa - Lenovo IdeaCentre 5 14IAB7, Intel® Core™ i5-12400, 16GB RAM, 512GB SSD, UHD Graphics 730, Sin sistema operativo','529','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98358265'),
 	 ('ordenadores','All in one - Lenovo IdeaCentre AIO 3 24ALC6, 23.8" Full HD, AMD Ryzen™ 5 5500U, 16GB RAM, 512GB SSD, Sin sistema operativo','629','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95407108'),
 	 ('ordenadores','PC sobremesa - ASUS U500MA-75700G007W, Ryzen™ 7 5700G, 16GB RAM, 512GB SSD, Radeon Graphics, Windows 11 Home, Negro','699','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99429135');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ebooks','eReader - Amazon Kindle Paperwhite 2021, 6.8", 300 ppp, 8GB, Wi-Fi, Impermeable, Con publicidad, Negro','139','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_89103746'),
 	 ('ebooks','eReader - Kobo Nia, 6", 8 GB, Para eBook, 212ppp, ComfortLight, Negro','109.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_83456350'),
 	 ('ebooks','eReader - Amazon Kindle, Para eBook, 6", Doble de almacenamiento, 16 GB, 300 ppp, E-Ink, Negro','109','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98854425'),
@@ -75,7 +75,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ebooks','E-book  - PB970-M-WWW POCKETBOOK, 9,7 ", 8 GB, 1200 x 825, E Ink Carta, Gris','223','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98925384'),
 	 ('ebooks','E-book  - PB632-K-WW POCKETBOOK, 6 ", 16 GB, 1072 x 1448, E Ink Carta Resolución 1072 × 1448, Negro','166.85','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98936152'),
 	 ('ebooks','E-book  - EBO-635L DENVER, 6 ", 4 GB, 1024 x 758, LED, Negro','99.05','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98981070');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ebooks','Terminal de recopilación de datos - resistente  - CT60-L0N-ASC210E HONEYWELL, 4,7 ", 32 GB, HD (1280x720), LCD, Negro','2262.8','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98981147'),
 	 ('ebooks','Dickens Light 2 Libro Electrónico Pantalla 6" Retroiluminada Con Teclas Frontales 8Gb  - SPC Dickens Light 2 Libro Electrónico Pantalla 6" Retroiluminada Con Teclas Frontales 8Gb SPC, 6 ", 8 GB, 1024x758 píxeles, E-Ink, Negro','103.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_89262316'),
 	 ('smartphones','Móvil - Samsung Galaxy S22 5G, Black, 256 GB, 8 GB RAM, 6.1" FHD+, Exynos 2200, 3700 mAh, Android 12','799','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_91197897'),
@@ -86,7 +86,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('smartphones','Móvil - Xiaomi Redmi Note 11 Pro 5G, Gris Grafito, 128GB, 8GB, 6.67" FHD+, Snapdragon 695, 5000 mAh, Android','359','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_92119990'),
 	 ('smartphones','APPLE iPhone 13, Medianoche, 128 GB, 5G, 6.1" OLED Super Retina XDR, Chip A15 Bionic, iOS','859','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_91289781'),
 	 ('smartphones','Móvil - Samsung Galaxy A34, Black, 256 GB, 8 GB RAM, 6.6 " FHD+, Mediatek Dimensity 1080 Octa-Core, 5000 mAh, Android 13','449','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103611587');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('smartphones','Móvil - Samsung Galaxy A54 5G, White, 256 GB, 8 GB RAM, 6.4" Full HD+, Exynos 1380, 5000 mAh, Android','549','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103610998'),
 	 ('smartphones','Móvil - Samsung Galaxy A54 5G, Light Purple, 256 GB, 8 GB RAM, 6.4" Full HD+, Exynos 1380, 5000 mAh, Android','549','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103611000'),
 	 ('smartphones','Móvil - Samsung Galaxy A54 5G, Light Green, 256 GB, 8 GB RAM, 6.4" Full HD+, Exynos 1380, 5000 mAh, Android','549','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103612808'),
@@ -97,7 +97,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('smartphones','Móvil - Xiaomi Redmi Note 11 Pro 5G, Azul Atlántico, 128GB, 8GB, 6.67" FHD+, Snapdragon 695, 5000 mAh, Android','359','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_92119973'),
 	 ('smartphones','Móvil - Samsung Galaxy S23 Ultra 5G, Botanic Green, 512GB, 12GB RAM, 6.8" QHD+, Qualcomm Snapdragon 8, Gen 2 Octa-Core, 5000mAh, Android 13','1589','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101676722'),
 	 ('smartphones','APPLE iPhone 11, Negro, 128 GB, 6.1" Liquid Retina HD, Chip A13 Bionic, iOS','573','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96276715');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('smartphones','APPLE iPhone 13, Rosa, 128 GB, 5G, 6.1" OLED Super Retina XDR, Chip A15 Bionic, iOS','859','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87283638'),
 	 ('smartphones','Móvil - Xiaomi Redmi 9C, Negro, 128 GB, 4 GB RAM, 6.53" HD+, MediaTek Helio G35, 5000 mAh, Android','140.9','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93868213'),
 	 ('smartphones','Móvil - OPPO A96, Starry Black, 128 GB, 8 GB RAM, 6.59" FHD+, Qualcomm Snapdragon™ 680, 5000 mAh, Android 11','279','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93175536'),
@@ -108,7 +108,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('smartphones','Móvil - Samsung Galaxy A14, Plata, 128 GB, 4 GB RAM, 6.6" FHD+, Mediatek Helio G85, 5000 mAh, Android','229','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103610077'),
 	 ('smartphones','Móvil - Samsung Galaxy S23 Ultra 5G, Phantom Black, 512GB, 12GB RAM, 6.8" QHD+, Qualcomm Snapdragon 8, Gen 2 Octa-Core, 5000mAh, Android 13','1589','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101676425'),
 	 ('smartphones','Móvil - OnePlus 11 5G, 256 GB + 16 GB RAM, 6.7", 3D OLED, Snapdragon® 8 Gen 2 Mobile Platform, 5000 mAh, Android, Titan Black','899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102024497');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('smartphones','Móvil - Xiaomi Redmi Note 12 Pro 5G, Negro, 128 GB, 8 GB RAM, 6.67" AMOLED FHD+ 120Hz, MediaTek Dimensity 1080 2,6 Ghz, 5000 mAh, Android','399','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103176413'),
 	 ('smartphones','APPLE iPhone 11, Negro, 64 GB, 6.1" Liquid Retina HD, Chip A13 Bionic, iOS','529','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96277825'),
 	 ('smartphones','Móvil - Samsung Galaxy A53 5G, Black, 256 GB, 8 GB RAM, 6.5" FHD+, Exynos 1280, 5000 mAh, Android 12','489','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_92324093'),
@@ -119,7 +119,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('smartphones','Móvil - Xiaomi 13 Lite, Negro, 256 GB, 8 GB RAM, 6.55" FHD+ AMOLED 120 Hz, Snapdragon® 7 Gen 1, 4500 mAh, Android 13 - MIUI 14','549.9','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102289469'),
 	 ('smartphones','Smartphone  - Smartphone ZTE Blade A31 Lite 5 1GB+32GB Azul ZTE, Azul, 32 GB, 1 GB, 5 ", 480 x 960 p, SC9832E 2000 mAhmAh','69.07','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_88620979'),
 	 ('smartphones','Móvil - Samsung Galaxy S23 Ultra 5G, Cotton White, 512GB, 12GB RAM, 6.8" QHD+, Qualcomm Snapdragon 8, Gen 2 Octa-Core, 5000mAh, Android 13','1589','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101676715');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('smartphones','Móvil - realme GT Neo 3T 5G, Negro, 128 GB, 8 GB RAM, 6.62 " FHD+, Snapdragon 870, 5000 mAh, Android 12','419','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94746282'),
 	 ('smartphones','Móvil - Samsung Galaxy S23 5G, Phantom Black, 256GB, 8GB RAM, 6.1" FHD+, Qualcomm Snapdragon, 3900mAh, Android 13','959','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101676591'),
 	 ('smartphones','Móvil - Xiaomi Redmi Note 12 Pro + 5G, Negro, 256 GB, 8 GB RAM, 6.67" AMOLED FHD+ 120Hz, MediaTek Dimensity 1080 2,6 Ghz, 5000 mAh, Android','499','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103448688'),
@@ -130,7 +130,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('smartphones','Móvil - Xiaomi Redmi 9A, Aurora Green, 32 GB, 2 GB RAM, 6.53 " HD+, MediaTek Helio G25, 5000 mAh, Android','99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95148311'),
 	 ('smartphones','Móvil - Xiaomi Redmi Note 12 Pro + 5G, Azul, 256 GB, 8 GB RAM, 6.67" AMOLED FHD+ 120Hz, MediaTek Dimensity 1080 2,6 Ghz, 5000 mAh, Android','499','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103448689'),
 	 ('smartphones','APPLE iPhone 13, Verde, 128 GB, 5G, 6.1" OLED Super Retina XDR, Chip A15 Bionic, iOS','859','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_92170877');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil - ASUS VivoBook F1605PA-MB090W, 16" WUXGA, Intel® Core™ i7-11370H, 16GB RAM, 512GB SSD, Iris® Xe Graphics, W11H','899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102806874'),
 	 ('portatiles','Portátil - HP 14s-dq5001ns, 14" Full HD, Intel® Core™ i5-1235U, 8GB RAM, 512GB SSD, Iris® Xᵉ, W11 H','649','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102839724'),
 	 ('portatiles','Portátil - HP 15S-FQ2150NS, 15.6 " FHD, Intel® Core™ i3-1115G4, 8GB RAM, 256GB SSD, UHD Graphics, Sin sistema operativo, Plata','449','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95078111'),
@@ -141,7 +141,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil  - F515EA-EJ3060W ASUS, 15,6 ", Full-HD, Intel® Core™ i7, 16 GB, 512 GB, Intel Iris Xe Graphics, Windows 11 Home Gris','745','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_94347605'),
 	 ('portatiles','APPLE MacBook Air (2020), 13.3" Retina, Chip M1 de Apple, 8 GB, 256 GB SSD, MacOS, Teclado Magic Keyboard Touch ID, Plata','1099','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87203671'),
 	 ('portatiles','Convertible 2 en 1 - ASUS Vivobook TP1400KA-EC040WS, 14" Full HD, Intel® Celeron® N4500, 4GB RAM, 128GB eMMC, UHD Graphics, W11H','439','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93616099');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','APPLE MacBook Air (2022), 13,6" Retina, Chip M2 de Apple, GPU 8 Núcleos, 8 GB, 256 GB SSD, macOS, Teclado Magic Keyboard Touch ID, Negro','1369','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94617159'),
 	 ('portatiles','Portátil - ASUS E410MA-EK1945, 14" Full HD, Intel® Celeron® N4020, 4GB RAM, 256 GB SSD, Intel® UHD, Sin sistema operativo','329','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100505481'),
 	 ('portatiles','Portátil gaming - HP OMEN 16-c0031ns, 16.1" Full HD, AMD Ryzen™ 7 5800H, 16GB RAM, 512GB SSD, RTX™ 3050 Ti, Sin sistema operativo','1149','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_91802460'),
@@ -152,7 +152,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('portatiles','Convertible 2 en 1 - Lenovo IdeaPad Flex 5 14ALC7, 14" WUXGA, AMD Ryzen™ 5 5500U, 16GB RAM, 512GB SSD, Radeon™ Graphics, Windows 11 Home','829','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103265631'),
 	 ('portatiles','Portátil - ASUS F1400EA-EK1838W, 14" Full HD, Intel® Core™ i5-1135G7, 8GB RAM, 512GB SSD, Iris® Xe Graphics, Windows 11 Home','599','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98967244'),
 	 ('portatiles','Portátil  - VivoBook F1500EA-EJ3068W ASUS, 15,6 ", Full-HD, Intel® Core™ i7-1165G7, 16 GB, 512 GB, Intel® Iris Xe Graphics, Windows 11 home Negro Indie','735','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_97609731');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil - ASUS F1500EA-BQ2362, 15.6" Full HD, Intel® Core™ i3-1115G4 , 8GB RAM, 256 GB SSD, UHD Graphics, Sin sistema operativo','369','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98879954'),
 	 ('portatiles','Portátil - ASUS VivoBook 15 OLED F1505ZA-L1194, 15.6" Full HD, Intel® Core™ i7-1255U, 16GB RAM, 512GB SSD, Iris® Xe Graphics, Sin sistema operativo','849','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102575981'),
 	 ('televisores','TV QLED 43" - TCL 43C635, UHD 4K, Smart TV, Control por voz, Wifi,Dolby Atmos, Negro','349','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101200350'),
@@ -163,7 +163,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil gaming - HP Victus 15-FB0021NS, 15.6" Full HD, AMD Ryzen™ 5 5600H, 16GB RAM, 512GB SSD, GTX 1650, W11 H','899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102839743'),
 	 ('portatiles','Portátil gaming - Acer Chromebook CBG516-1H-72EW, 16" WQXGA, Intel® Core™ i7-1260P, 16GB RAM, 256GB SSD, Iris® Xe, Chrome OS','1099','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103214012'),
 	 ('portatiles','Portátil - HP Chromebook 11 X360 MK G3, 11.6" HD, MediaTek MT8183, 4GB RAM, 32GB eMMC, Chrome OS','239','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98751703');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil - HP Laptop 15s-eq2069ns, 15.6 " Full HD, AMD Ryzen™ 5 5500U, 8GB RAM, 512GB SSD, AMD Radeon™, W11 H','529','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93565972'),
 	 ('portatiles','Portátil - ASUS VivoBook 15 OLED F1505ZA-L1195, 15.6" Full HD, Intel® Core™ i7-1255U, 8GB RAM, 512 GB SSD, Iris Xe Graphics, Sin sistema operativo','949','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103018303'),
 	 ('portatiles','Portátil - Lenovo IdeaPad 3 15ITL6, 15.6" Full HD, Intel® Core™ i5-1155G7, 8GB RAM, 512GB SSD,  Iris® Xe Graphics, Windows 11 Home','568','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98944475'),
@@ -174,7 +174,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil gaming - Acer Nitro 5 AN515-57, 15.6" FHD, Intel® Core™ i7-11800H, 16GB RAM, 512GB SSD, NVIDIA® GeForce RTX™ 3070, Sin sistema operativo','1099','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95079189'),
 	 ('portatiles','Portátil gaming - HP Victus 15-fb0001ns, 15.6" Full HD, AMD Ryzen™ 5 5600H, 8GB RAM, 512GB SSD, GTX 1650, Sin sistema operativo, Plata Mica','799','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99194467'),
 	 ('portatiles','APPLE MacBook Pro (2022), 13,3" Pantalla Retina, Chip M2 de Apple, 8 GB, 256 GB, macOS Monterey, Cámara FaceTime HD a 720p, Plata','1430','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94649720');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil gaming - Acer Nitro 5 AN515-58, 15.6" Full HD, Intel® Core™ i5-12500H, 16GB RAM, 512GB SSD, GeForce RTX™ 3050, Windows 11 Home','899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98272400'),
 	 ('portatiles','Portátil - Acer Chromebook CB315-4H, 15.6" Full HD, Intel® Celeron® N4500, 8GB RAM, 128GB eMMC, Intel® UHD Graphics, Chrome OS','399','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99019407'),
 	 ('portatiles','Portátil gaming - Acer AN515-58,15.6" Full HD, Intel® Core™ i5-12500H, 16GB RAM, 1TB SSD, NVIDIA® GeForce RTX™ 3060, W11H, Mochila + Ratón gaming','999','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101545185'),
@@ -185,7 +185,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil - ASUS ZenBook OLED 14X OLED UM5401QA-L717, 14" WQXGA+, AMD Ryzen™ 7 5800H, 16GB RAM, 512GB SSD, Radeon™ Graphics, Sin sistema operativo','899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98884120'),
 	 ('portatiles','APPLE MacBook Pro (2022), 13,3" Pantalla Retina, Chip M2 de Apple, 8 GB, 256 GB, macOS Monterey, Cámara FaceTime HD a 720p, Gris espacial','1385','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94649678'),
 	 ('portatiles','Portátil  - 15S-EQ1163NS HP, 15,6 ", AMD Athlon 3020E, 8 GB, 256 GB, AMD Radeon Graphics, Windows 11 Home Blanco','333.97','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99171402');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil - HP 15s-eq1133ns, 15.6" HD, AMD 3020e, 4GB RAM, 256GB SSD, AMD Radeon™, Sin sistema operativo, Negro','349','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98360090'),
 	 ('portatiles','Convertible 2 en 1 - Lenovo IdeaPad Flex 5 14ALC05, 14" Full HD, AMD Ryzen™ 7 5700U, 16GB RAM, 512GB SSD, Radeon™ Graphics, Windows 11 Home S','809','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98304848'),
 	 ('portatiles','Portátil - ASUS VivoBook M1703QA-AU009W, 17.3" Full HD, Ryzen™ 5 5600H, 16GB RAM, 512GB SSD, Radeon™ Graphics, Windows 11 Home','799','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98883985'),
@@ -196,7 +196,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('portatiles','Convertible 2 en 1 - Acer Spin SP314-55N, 14" Full HD, Intel® Core™ i5-1235U, 8GB RAM, 512GB SSD, UMA, Windows 11 Home, Plata','799','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98370604'),
 	 ('portatiles','Portátil - MSI Modern 15 B12M-024XES, 15.6" Full HD, Intel® Core™ i7-1255U, 16GB RAM, 512GB SSD, Iris® Xe Graphics, Sin sistema operativo','899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98706697'),
 	 ('portatiles','Portátil - Lenovo IdeaPad 3 15ALC6, 15.6" Full HD, AMD Ryzen™ 5 5500U, 16GB RAM, 512GB SSD, AMD Radeon™ Graphics, Windows 11 Home','629','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93641811');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','Convertible 2 en 1 - Lenovo IdeaPad Flex 5 14ITL05, 14" Full HD, Intel® Core™ i5-1135G7, 16GB RAM, 512GB SSD, Iris® Xe Graphics, Windows 11 Home','849','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95342445'),
 	 ('portatiles','Portátil - HP 15s-fq3004ns, 15.6" Full HD, Intel® Celeron® N4500, 8GB RAM, 256GB SSD, UHD, Sin sistema operativo, Plata','389','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100286970'),
 	 ('portatiles','Portátil gaming - Lenovo IdeaPad Gaming 3 15ACH6, 15,6" Full HD, AMD Ryzen™ 5 5600H, 16GB, 512GB SSD, GeForce GTX 1650, Sin sistema operativo','699','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100857516'),
@@ -207,7 +207,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil - HP 15S-FQ2149NS, 15.6" Full HD, Intel® Core™ i3-1115G4, 8GB RAM, 256GB SSD, Intel® UHD, W11 S, Plata','539','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_90729046'),
 	 ('portatiles','Portátil gaming - ASUS ROG G513RC-HN088W, 15.6" Full HD, AMD Ryzen™ 7 6800H, 16GB RAM, 512GB SSD, GeForce RTX™ 3050, Windows 11 Home','1199','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101761141'),
 	 ('portatiles','Convertible 2 en 1 - Microsoft Surface Pro 9, 13" 2K QHD+, Intel® Evo™ Core™ i5-1235U, 8 GB RAM, 256 GB SSD, W11 Home, Platinum','1299','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99566264');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil gaming - Lenovo Legion 5 Pro 16IAH7H, 16" WQXGA, Intel® Core™ i7-12700H, 32GB RAM, 1TB SSD, GeForce RTX™ 3070, Windows® 11 Home, Gris','2349','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102425744'),
 	 ('portatiles','Portátil gaming - Lenovo Legion 5 15ITH6H, 15.6" Full HD, Intel® Core™ i5-11400H, 16GB RAM, 512GB SSD, GeForce RTX™ 3060, Windows 11 Home','1149','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102292451'),
 	 ('portatiles','Portátil - Acer Aspire 5 A515-56-76HW, 15.6" FHD, Intel® Core™ i7-1165G7, 8 GB RAM, 512 GB SSD, Iris® Xe, W11','699','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93383496'),
@@ -218,7 +218,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43" - LG 43UQ80006LB, UHD 4K, Procesador Inteligente α5 Gen5 AI Processor 4K, Smart TV, DVB-T2 (H.265), Negro','429','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101216027'),
 	 ('televisores','TV LED 43" - Panasonic TX-43LX650E, HDR 4K, High contrast, Smart TV, DVB-T2 (H.265), Negro','429','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99671224'),
 	 ('televisores','TV LED 43" - LG 43NANO766QA, UHD 4K, Procesador Inteligente α5 Gen5 AI Processor 4K, Smart TV, DVB-T2 (H.265), Azul Oscuro Ceniza','555','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100944343');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43" - LG 43UQ76906LE, UHD 4K, Procesador Inteligente α5 Gen5 AI Processor 4K, Smart TV, DVB-T2 (H.265), Blanco','449','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100946230'),
 	 ('televisores','TV LED 43" - Sony 43X73K, 4K HDR, Smart TV (AndroidTV) con YouTube, Netflix, HBO, Disney…, Bravia Engine, Dolby Atmos, Chromecast, Asistente de Google','566','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100861564'),
 	 ('televisores','TV LED 43" - LG 43UQ91006LA, UHD 4K, Procesador Inteligente α5 Gen5 AI Processor 4K, Smart TV, DVB-T2 (H.265), Azul Oscura Ceniza','529','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100947281'),
@@ -229,7 +229,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('televisores','TV QLED 43" - Samsung QE43Q60BAUXXC, QLED 4K, Procesador QLED 4K Lite, Smart TV, Negro','519','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_92123460'),
 	 ('televisores','TV LED 43" - Samsung UE43BU8500KXXC, UHD 4K, Procesador Crystal 4K, Smart TV, Negro','499','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100841898'),
 	 ('televisores','TV LED 40"  - 40A4BG HISENSE, Full-HD, Quad Core/NT72671D, DVB-T2 (H.265)Sí, Negro','282','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98495725');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 40" - OK OTV 40F-5022V, Full-HD, DVB-T2 (H.265), Media Player, Negro','189','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98405257'),
 	 ('televisores','TV QLED 43" - Hisense 43A7GQ, HDR UHD 4K, Smart TV, HDMI, Dolby Atmos, Dolby Vision, HDR10+, Gris oscuro','382','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103268319'),
 	 ('televisores','TV LED 43" - Haier K7 Series H43K702UG, Smart TV (Android TV 11), HDR 4K, Direct LED, Dolby Audio, Smart remote control, Dbx-tv®, Negro','349','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103161176'),
@@ -240,7 +240,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('televisores','TV OLED 42" - LG OLED42LX3Q6LA FLEX, UHD 4K, α9 Gen5 AI Processor 4K, Smart TV, DVB-T2 (H.265), Negro + Instalación gratuita LG','2899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100031076'),
 	 ('televisores','TV LED 40"  - INTV-40N520 INFINITON, Full-HD, DVB-T2 (H.265)Sí, Negro','187.92','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99183126'),
 	 ('televisores','TV LED 43" - TCL 43P635, LCD, 4K HDR TV, Google TV, Control por voz, Wifi, Dolby Audio, HDR10, Negro','329','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101200638');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43" - Xiaomi Mi TV P1, UHD 4K, Smart TV, HDR10+, Control por voz, Dolby Audio™ y DTS-HD, Negro','399','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_84028611'),
 	 ('televisores','TV LED 43"  - UE43AU7172U SAMSUNG, UHD 4K, Procesor Crystal 4K, DVB-T2 (H.265)Sí, Gris','385.95','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98513413'),
 	 ('televisores','TV OLED 42" - Sony Master Series BRAVIA XR 42A90K, 4K HDR 120, HDMI 2.1 Perfecto para PS5, Smart TV (Google TV), Dolby Vision, Dolby Atmos','1506','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100861585'),
@@ -251,7 +251,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43"  - 43UP75006LF LG, UHD 4K, Negro','357.48','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99068935'),
 	 ('televisores','TV OLED 42" - LG Posé 42LX1Q6LA, UHD 4K, α9 Gen5 AI 4K, Smart TV, DVB-T2 (H.265), Textil Beige','1549','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98403520'),
 	 ('televisores','TV LED 43" - Sony 43X81K, 4K HDR, Smart TV (Google TV), Procesador X1, Dolby Vision, Dolby Atmos, Asistentes de voz (Assistente de Google, Alexa)','692','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100861565');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('televisores','TV Neo QLED 43" - Samsung TQ43QN90CATXXC, Neo QLED 4K, Neural Quantum Processor 4K, Smart TV, DVB-T2 (H.265), Carbón Silver','1699','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102765987'),
 	 ('televisores','TV LED 43" - Sony 43X85K, 4K para Gaming/Netflix/Youtube, Smart TV (Google TV), HDMI 2.1,  Dolby Vision, Atmos, Asistentes de voz, Triluminos Pro','850','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100861567'),
 	 ('televisores','TV NanoCell 43"  - 43NANO786QA LG, UHD 4K, Procesador Inteligente α5 Gen5 AI Processor 4K, DVB-T2 (H.265)Sí, Gris','493.56','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98614857'),
@@ -262,7 +262,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 42''''  - LED-42020T2 GRUNKEL, Full-HD, DVB-T2 (H.265)Sí, Negro','219.9','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99473640'),
 	 ('televisores','TV LED 43"  - 43UQ75003LF LG, UHD 4K, DVB-T2 (H.265)Sí, Negro','363.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98622673'),
 	 ('televisores','TV LED 43"  - 43UA3D63DG TOSHIBA, UHD 4K, Quad Core, DVB-T2 (H.265)Sí, Negro','289','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98620901');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43"  - 43UP77006LB LG, UHD 4K, Negro','450.29','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_94387155'),
 	 ('televisores','TV LED 43"  - 43UQ70006LB LG, UHD 4K, Procesador Inteligente a5 Gen5 AI Processor 4K, DVB-T2 (H.265)Sí, Negro','419.04','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98613837'),
 	 ('televisores','TV LED 43"  - UE43AU7105KXXC SAMSUNG, UHD 4K, Titan Gray','416.95','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_94621800'),
@@ -273,7 +273,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43"  - QE43LS03BAUXXC SAMSUNG, UHD 4K, Quantum Processor 4K, DVB-T2 (H.265)Sí, Negro','708.48','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98830424'),
 	 ('televisores','TV QLED 43" - Samsung The Serif QE43LS01BAUXXC, UHD 4K,  Procesador QLED 4K, Smart TV, HDR+, Blanco','781','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95828257'),
 	 ('televisores','TV LED 43"  - Mi LED TV 4S XIAOMI, UHD 4K, Quad Core (hasta 1.5GHz), DVB-T2 (H.265)Sí, Negro','432','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_94387253');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43"  - 43PUS8887/12 PHILIPS, UHD 4K, Philips P5, DVB-T2 (H.265)Sí, Gris','654.48','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99849804'),
 	 ('televisores','TV QLED 43"  - 43C639 TCL, UHD 4K, Plata','523.78','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98614166'),
 	 ('televisores','TV QLED 43" - Samsung The Serif QE43LS01BBUXXC, UHD 4K, Procesador QLED 4K, Smart TV, Azul','812','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93094596'),
@@ -284,7 +284,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43"  - KD43X85J SONY, UHD 4K, Negro','799.2','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_94381003'),
 	 ('televisores','TV LED 40" - INFINITON, Full-HD, Smart TV, DVB-T2, Negro','238.68','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99197121'),
 	 ('televisores','TV LED 43"  - 43PUS8807/12 PHILIPS, UHD 4K, Philips P5, DVB-T2 (H.265)Sí, Plata','984.56','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98622782');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43"  - L43M7-FVEU XIAOMI, UHD 4K, Negro','419','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98615316'),
 	 ('televisores','TV LED 43"  - 43PUS8507/12 PHILIPS, UHD 4K, Philips P5, DVB-T2 (H.265)Sí, Plata','541.94','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99849725'),
 	 ('televisores','TV QLED 43"  - 43E7HQ HISENSE, UHD 4K, DVB-T2 (H.265)Sí, Negro','571.31','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98614061'),
@@ -295,7 +295,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('televisores','TV NanoCell 43"  - 43NANO763QA LG, UHD 4K, DVB-T2 (H.265)Sí, Negro','560.54','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98620080'),
 	 ('televisores','TV LED 43"  - 43PUS8057/12 PHILIPS, UHD 4K, Quad Core - Pixel Precise Ultra HD, DVB-T2 (H.265)Sí, Plata','587.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98613748'),
 	 ('televisores','TV LED 43"  - UE43AU8005K SAMSUNG, UHD 4K, Negro','495.1','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_94387112');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('televisores','TV LED 43"  - K43DLG12US TD SYSTEMS, UHD 4K, Arm Cortex A55x4, DVB-T2 (H.265)Sí, Negro','425.74','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_92691778'),
 	 ('televisores','TV LED 40"  - LE4063E ENGEL, Full-HD, DVB-T2 (H.265)Sí, Negro','206.4','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98623257'),
 	 ('televisores','TV LED 39.5"  - NVR-8072-40FH2S-SMAB NEVIR, HD-ready, Blanco','236.52','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98513629'),
@@ -306,7 +306,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('consolas','Consola - Sony PlayStation 5 Standard (2 Mandos DualSense™ incluidos), 825 GB, 4K HD, Negro y Blanco','609','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102611624'),
 	 ('consolas','Consola - Sony PS5 Digital Edition C Chassis, 825 GB, 4K, Blanco y Negro','449.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102608355'),
 	 ('consolas','Consola - Sony PS5 Digital, 825 GB, 4K UHD, Blanco + Juego God of War Ragnarok (código descarga)','523.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100810151');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('consolas','Consola - Microsoft Xbox Series X + Juego Forza Horizon 5 Premium Eldition, 1 TB SSD, Negro','548','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101913427'),
 	 ('consolas','Consola - Sony PS5 Stand, 825 GB, 4K UHD Blu ray, Blanco + Juego God Of War: Ragnarok (código descarga)','620','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100810149'),
 	 ('consolas','Consola - Nintendo Switch OLED, 7", Joy-Con, 64 GB, Blanco','349','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_85591077'),
@@ -317,7 +317,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('consolas','Consola - Nintendo Switch con mandos Joy-Con Rojos, Super Mario Odyssey en código descargable y hoja de pegatinas, Ed. Limitada, 32 GB, Negro','329','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103330284'),
 	 ('consolas','Consola - Sony PlayStation 5 Standard, 825 GB, 4K, 1 mando, Chasis C, Blanco','549.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102608400'),
 	 ('consolas','Consola - Sony PlayStation 5 Standard (2 Mandos DualSense™ incluidos), 825 GB, 4K HD, Negro y Blanco','609','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102611624');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('consolas','Consola - Sony PS5 Digital Edition C Chassis, 825 GB, 4K, Blanco y Negro','449.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102608355'),
 	 ('consolas','Consola - Sony PS5 Digital, 825 GB, 4K UHD, Blanco + Juego God of War Ragnarok (código descarga)','523.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100810151'),
 	 ('consolas','Consola - Microsoft Xbox Series X + Juego Forza Horizon 5 Premium Eldition, 1 TB SSD, Negro','548','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101913427'),
@@ -328,7 +328,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('consolas','Consola - Microsoft Xbox Series S, 512 GB SSD, Blanco','280','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_89726540'),
 	 ('consolas','Consola - Microsoft Xbox Series S 512 GB Gilded Hunter Bundle + Fornite, Rocket  League, Fall Guys, Blanco','280','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100289560'),
 	 ('consolas','Consola - Nintendo Switch con mandos Joy-Con Rojos, Super Mario Odyssey en código descargable y hoja de pegatinas, Ed. Limitada, 32 GB, Negro','329','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103330284');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC sobremesa - HP M01-F2050ns, Intel® Core™ i5-12400 , 16GB RAM, 512GB SSD, UHD 730, W11 Home, Negro','729','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99401778'),
 	 ('ordenadores','All in One - HP 27-cb0006ns, 27" FHD, AMD Ryzen™ 3 5300U, 8GB RAM, 512GB SSD, AMD Radeon™, W11H','679','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_91802431'),
 	 ('ordenadores','All in one - HP  24-cb0024ns, 23.8" Full HD, AMD Ryzen™ 5 5500U, 16GB RAM, 512GB SSD, AMD Radeon™, W11 Home, Blanco','799','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96186389'),
@@ -339,7 +339,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ordenadores','All in one - Acer C24-1700, 23.8" Full HD, Intel® Core™ i3-1215U, 8 GB RAM, 512 GB SSD,  , Iris® X e Graphics, Windows 11 Home, Negro','649','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99431414'),
 	 ('ordenadores','All in one - Lenovo IdeaCentre AIO 3 24ITL6, 23.8" Full HD, Intel® Core™ i3-1115G4, 8 GB RAM, 512 GB SSD, UHD Graphics, Sin sistema operativo','529','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102213549'),
 	 ('ordenadores','PC sobremesa - Lenovo IdeaCentre 5 14IAB7, Intel® Core™ i5-12400, 16GB RAM, 512GB SSD, UHD Graphics 730, Sin sistema operativo','529','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98358265');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ordenadores','All in one - Lenovo IdeaCentre AIO 3 24ALC6, 23.8" Full HD, AMD Ryzen™ 5 5500U, 16GB RAM, 512GB SSD, Sin sistema operativo','629','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95407108'),
 	 ('ordenadores','PC sobremesa - ASUS U500MA-75700G007W, Ryzen™ 7 5700G, 16GB RAM, 512GB SSD, Radeon Graphics, Windows 11 Home, Negro','699','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99429135'),
 	 ('ordenadores','All in one - Lenovo IdeaCentre AIO 3 27ITL6, 27" Full HD, Intel® Core™ i7-1165G7, 16 GB RAM, 512 GB SSD, Iris® Xe Graphics, Sin sistema operativo','899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102213557'),
@@ -350,7 +350,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC sobremesa - HP M01-F2005NS, Intel® Core™ i3-10105, 8GB RAM, 512GB SSD, Intel® UHD 630, W11, Negro','569','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_92420684'),
 	 ('ordenadores','PC sobremesa - Lenovo IdeaCentre 5 14IAB7, Intel® Core™ i5-12400, 16GB RAM, 512GB SSD, UHD Graphics 730, Windows 11 Home','699','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98402482'),
 	 ('ordenadores','PC sobremesa  - EE81935 ZONE EVIL, Intel Core i5-10400 10ª Generación, 8 GB, 480 GB, Intel® UHD, FreeDOS, Negro','358.4','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99893336');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC sobremesa  - OR1639214 DIFFERO, Intel Core i3 de 10ma Generación, 8 GB, 240 GB, X, FreeDOS, Negro','316.27','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99128402'),
 	 ('ordenadores','PC sobremesa - Lenovo IdeaCentre 5 14ACN6, AMD Ryzen™ 5 5600G, 16GB RAM, 512GB SSD, AMD Radeon™ Graphics, Sin sistema operativo','549','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94108993'),
 	 ('ordenadores','PC-Desktop  - SoHo56 EPICAL-Q , Intel Core i5 10400, 8 GB, 480 GB, Intel UHD 630, Sin sistema operativo, Negro','469.9','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_94307901'),
@@ -361,7 +361,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC gaming - Acer Nitro N50-640, Intel® Core™ i5-12400F, 16GB RAM, 512GB SSD+ 1TB HDD, GeForce® GTX 1660 SUPER™, Sin sistema operativo','859','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94178400'),
 	 ('ordenadores','PC Sobremesa  - S2690G ACER, i7-12700, 16 GB, 512 GB, Intel UHD Graphics 770, Windows 11 Pro, Negro','966','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99702604'),
 	 ('ordenadores','PC-Desktop  - SoHo32 EPICAL-Q , Intel Core i3 10100, 8 GB, 480 GB, Intel UHD 630, Sin sistema operativo, Negro','439','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_94307901');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC sobremesa - ASUS S500MC-511400068W, Intel® Core™ i5-11400, 16GB RAM, 512GB SSD, Intel®UHD Graphics 730, Windows 11 Home, Negro','599','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_97441080'),
 	 ('ordenadores','All in one - Lenovo IdeaCentre AIO 3 27ITL6, 27" Full HD, Intel® Core™ i7-1165G7, 16GB RAM, 512GB SSD, Iris® Xe Graphics, W11H, Blanco','999','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_103489254'),
 	 ('ordenadores','PC Gaming  - Avanzado Silver NITROPC, Intel Core i5-11400 (6 núcleos, 12 hilos | de 2,60GHz hasta 4,40 GHz (turbo)), 16 GB, 240 GB, 1 TB, NVIDIA GeForce GTX 1650 4GB GDDR6, Windows 11 Home, Blanco','1013.19','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99228768'),
@@ -372,7 +372,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC gaming - MSI MPG Infinite X2 13FTD-015ES, Intel® Core™ i7-13700KF, 32GB RAM, 1TB SSD, MSI GeForce® RTX 3070, Windows 11 Home, Negro','2208','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100483268'),
 	 ('ordenadores','PC gaming - Acer Nitro N50-640, Intel® Core™ i5-12400F, 8GB RAM, 1TB SSD, GeForce® GTX 1650, W11H','949','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_91712302'),
 	 ('ordenadores','All in one - Acer Aspire C24-420, 23.8" Full HD, AMD Athlon™ Gold 3150U, 8GB RAM, 256GB SSD, AMD Radeon™ Graphics, Sin sistema operativo, Negro','449','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100290380');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC Gaming  - Avanzado Gold Plus NITROPC, AMD Ryzen 5 5500 (6 núcleos, 12 hilos | de 3,60 GHz hasta 4,20 GHz (turbo)), 16 GB, 480 GB, 2 TB, NVIDIA GeForce GTX 1660 SUPER 6GB GDDR6, Windows 11 Home, Negro','1301.86','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99922127'),
 	 ('ordenadores','PC Gaming  - Avanzado Nitro NITROPC, Intel Core i5-12400 (6 núcleos, 12 hilos | de 2,50GHz hasta 4,60 GHz (turbo)), 16 GB, 512 GB, 1 TB, NVIDIA GeForce RTX 3050 8GB GDDR6, Windows 11 Home, Blanco','1489.16','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_94856363'),
 	 ('ordenadores','PC gaming - Acer N50-640, Intel® Core™ i5-12400F, 16GB RAM, 1TB SSD, NVIDIA® GeForce® RTX™ 3050, Windows 11 Home, Negro','1099','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99019337'),
@@ -383,7 +383,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ordenadores','All in one - Acer Aspire C24-1650 DQ.BFSEB.00H, 23.8" FHD, Intel® Core™ i5-1135G7, 16GB RAM, 512GB SSD, Iris® Xe, Sin sistema operativo','799','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93093891'),
 	 ('ordenadores','PC gaming - Acer Aspire TC-1760, Intel® Core™ i5-12400F, 16GB RAM, 512GB SSD, NVIDIA® GeForce® GTX 1650,Sin sistema operativo, Negro','699','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100283479'),
 	 ('ordenadores','PC gaming - Lenovo Legion T5 26IAB7, Intel® Core™ i7-12700F, 16GB RAM, 512GB SSD, GeForce RTX™ 3060 Ti, Sin sistema operativo','1379','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98363748');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC gaming - Lenovo IdeaCentre Gaming 5 17IAB7, Intel® Core™ i7-12700F, 16GB RAM, 512GB SSD, GeForce GTX 1660 SUPER, Sin Sistema Operativo','1079','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_99398538'),
 	 ('ordenadores','PC gaming - Lenovo IdeaCentre Gaming 5 17IAB7, Intel® Core™ i5-12400F, 16GB RAM, 512GB SSD, GeForce RTX™ 3050, Windows 11 Home','1199','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102292426'),
 	 ('ordenadores','PC gaming - MSI MAG META 5 5EDQ, AMD Ryzen 7 5800X, 16GB, 1TB SSD + 2TB HDD, Radeon™ RX 6600 XT, Sin sistema operativo, Black','1499','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_97300278'),
@@ -394,7 +394,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ordenadores','All in one - Acer C24-420, 23.8" Full HD, AMD Ryzen™ 3 3250U, 16GB RAM, 512GB SSD, AMD Radeon™ Graphics, Sin sistema operativo, Negro','589','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_100415203'),
 	 ('ordenadores','All in one - Acer Aspire C24-1700, 23.8" Full HD, Intel® Core™ i5-1235U, 16GB RAM, 512GB SSD, Iris® Xe Graphics, Sin sistema operativo, Black','749','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96925192'),
 	 ('ordenadores','All in one - Acer Aspire C24-1700, 23.8" Full HD, Intel® Core™ i5-1235U, 8GB RAM, 512GB SSD, Iris® Xe Graphics, Sin sistema operativo, Black','729','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96925290');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ordenadores','All in one - HP 24-df1027ns, 23.8 " Full HD, Intel® Core™ i5-1135G7, 8GB RAM, 512GB SSD, Iris® Xe Graphics, Windows 11 Home, Blanco','799','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93487639'),
 	 ('ordenadores','PC gaming - Acer Aspire TC-1760 DG.E31EB.005, Intel® Core™ i5-12400F, 8GB RAM, 512GB SSD, GTX 1650, Sin sistema operativo','649','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93412216'),
 	 ('ordenadores','PC gaming - MSI MAG Codex X5 12TE-1008IB, Intel® Core™ i7-12700KF, 32GB RAM, 1TB SSD, GeForce® RTX 3070 Ti, W11 Home','2349','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96102937'),
@@ -405,7 +405,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC Gaming  - Ryzen 9 5900X PC RACING, Ryzen 9 5900X, 32 GB, 1 TB, 1 TB, GeForce RTX 3060  12GB GDDR6, WINDOWS 11 HOME, NEGRO','1880.36','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_102429382'),
 	 ('ordenadores','PC Gaming  - Ryzen 5 5600G PC RACING, Ryzen 5 5600G, 16 GB, 1 TB, Nvidia GeForce RTX 3050 8 GB NVIDIA GDDR6, WINDOWS 11 HOME, NEGRO','1098.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_102429382'),
 	 ('ordenadores','PC gaming - MSI MAG Codex X5 12TE-1273ES, Intel® Core™ i7-12700KF, 32GB RAM, 2TB SSD, GeForce® RTX 3080, W11 Home','2649','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_96103096');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC Gaming  - Avanzado Nitro Plus NITROPC, Intel Core i5-12400 (6 núcleos, 12 hilos | de 2,50GHz hasta 4,60 GHz (turbo)), 16 GB, 1 TB, 2 TB, NVIDIA GeForce RTX 3050 8GB GDDR6, Windows 11 Home, Negro','1627.16','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_101141828'),
 	 ('ordenadores','PC Gaming  - Extremo Bronze NITROPC, AMD Ryzen 5 5700X (8 núcleos, 16 hilos | de 3,40 GHz hasta 4,60 GHz (turbo)), 16 GB, 512 GB, 1 TB, NVIDIA GeForce RTX 3050 8GB GDDR6, Windows 11 Home, Negro','1647.09','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_95002071'),
 	 ('ordenadores','PC Gaming  - Extremo Bronze Plus NITROPC, AMD Ryzen 5 5700X (8 núcleos, 16 hilos | de 3,40 GHz hasta 4,60 GHz (turbo)), 16 GB, 512 GB, 2 TB, NVIDIA GeForce RTX 3050 8GB GDDR6, Windows 11 Home, Negro','1771.09','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_95002066'),
@@ -416,7 +416,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC Sobremesa - HP S01-aF0040ns Mini Torre, AMD Athlon™ 3050U, 8GB RAM, 256GB SSD, Gráficos AMD Radeon™, W11 Home, Negro','399','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_90666764'),
 	 ('ordenadores','All in one - Acer Aspire C24-1650 DQ.BFTEB.00F, 23.8" FHD, Intel® Core™ i3-1115G4, 8GB RAM, 512GB SSD, UHD, Sin sistema operativo','499','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_93093863'),
 	 ('ordenadores','PC sobremesa - Lenovo IdeaCentre 5 14IAB7, Intel® Core™ i5-12400, 8GB RAM, 512GB SSD, UHD Graphics 730, Sin sistema operativo','549','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98358243');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ordenadores','PC sobremesa  - DMRP2 DELL, i7-12700, 16 GB, 1 TB, Intel B660, Windows 10 Pro, Negro','1028.1','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98862256'),
 	 ('ordenadores','PC Sobremesa  - Rematch MEGAMANIA, Intel® Core™ i7-11700 8 Cores up to hasta 4,90 GHz Turbo, 64 GB, 1 TB, Gráficos UHD Intel® 750 4K, Windows 11 Pro, Negro','1269','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_103717576'),
 	 ('ordenadores','PC Sobremesa  - Baltic MEGAMANIA, Intel Core i9-10900 de 8 núcleos  frecuencia turbo de 5.2 Ghz, 32 GB, 1 TB, Gráficos UHD Intel® 650 4K, Windows 11 Pro, Negro','1699','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_102891754'),
@@ -427,7 +427,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ebooks','eReader - Kobo Libra 2, 7’’ HD, eBook y AudioBook, 32 GB, Resistente al agua, Negro','199','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87780246'),
 	 ('ebooks','eReader - Kobo Clara 2E, Para eBook, 6 ", 16 GB, 300 ppp, 1448 x 1072, E-Ink, Azul Océano Profundo','150','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_97795335'),
 	 ('ebooks','eReader - Amazon Kindle, Para eBook, 6", Doble de almacenamiento, 16 GB, 300 ppp, E-Ink, Azul vaquero','109','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98854431');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ebooks','eReader - Kobo Libra 2, 7’’ HD, eBook y AudioBook, 32 GB, Resistente al agua, Blanco','199','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87780252'),
 	 ('ebooks','E-book  - PB970-M-WWW POCKETBOOK, 9,7 ", 8 GB, 1200 x 825, E Ink Carta, Gris','223','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98925384'),
 	 ('ebooks','E-book  - PB632-K-WW POCKETBOOK, 6 ", 16 GB, 1072 x 1448, E Ink Carta Resolución 1072 × 1448, Negro','166.85','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98936152'),
@@ -438,7 +438,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ebooks','E-book  - PB617-D-WW POCKETBOOK, 6 ", 8 GB, 212 ppp, E Ink Carta'', Blanco','115.4','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98981077'),
 	 ('ebooks','E-book  - PB628-P POCKETBOOK, 6 ", 8 GB, 1024x758px, Tinta electrónica, Rojo','131','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_96928144'),
 	 ('ebooks','eReader - SPC Dickens Light Pro, 6" 1024x758, 8 GB, 1500 mAh, Escala de grises, Negro + Funda','119','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_88746852');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ebooks','eReader  - PB741-N-WW POCKETBOOK, 7,8 ", 16 GB, 1404 x 1872, Plata','304.8','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_95687155'),
 	 ('ebooks','E-book  - PB617-P-WW POCKETBOOK, 6 ", 8 GB, 212 ppp, E Ink Carta™, Negro','109','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98981183'),
 	 ('ebooks','eReader - Kobo Sage, Para eBook, 8P, HD, 32GB, Bluetooth,Comfort Light PRO, Negro','299','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87780276'),
@@ -449,7 +449,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ebooks','eReader - Amazon Kindle Scribe, Para eBook, 10.2", 16 GB, 300 ppp, Wifi, Lápiz básico, Gris tungsteno','369','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98854386'),
 	 ('ebooks','eReader - Kobo Elipsa, 10.3" 1872 x 1404, 32 GB, Para eBook, e-Ink Carta, Negro + Funda + Stylus Pen','399','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_84525787'),
 	 ('ebooks','E-book  - PB633-N-VVO POCKETBOOK, 6 ", 16 GB, HD, Tinta electrónica, Plata','174.25','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_96928163');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ebooks','Funda Ebook  - WPUC616-SBK POCKETBOOK, 6 ", 0 GB, 1024x758px, Negro','12.58','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_92681583'),
 	 ('ebooks','Ebook  - Denver EBO-625 Lector de Libros electrónicos de 6 " Panel A-Grade Carta. DENVER, Negro, 6 ", 1 GB, Qualcom, Android','140.93','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_88911220'),
 	 ('ebooks','eReader  - Touch HD 3 POCKETBOOK, 6 ", 16 GB, 1072 x 1448, Gris','168','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_92610251'),
@@ -460,7 +460,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ebooks','Ebook infantil - KLACK KBOOK','39.95','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_102283125'),
 	 ('ebooks','20 x 22 x 3 cm; 390 gramos  - 4016621128319 TOLINO, 8 ", 8 GB, 1440 píxeles, Negro','361.21','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98981058'),
 	 ('ebooks','E-book  - 53-019409 AMAZON, 7 ", 32 GB, (300 ppi), Litio-polímero, Oro','320.97','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98981076');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ebooks','Eink  - Meebook P78 PRO AZMXDVP, 7,8 ", 32 GB, 1404*1872 Píxeles, Eink, Gris','421.06','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98981083'),
 	 ('ebooks','Funda eReader - Maillon Technologique Map MTEBOOK6MAP, Para eBook de 6", Tipo libro, Universal, Marrón','12.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94298795'),
 	 ('ebooks','Funda eReader - Rakuten Kobo Nia SleepCover, Cuero artificial, Modo Suspención Automático, Negro','19.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_76086728'),
@@ -471,7 +471,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ebooks','Funda - Amazon B08VZCBWN8, Para Kindle Paperwhite de 11.ª generación (modelo de 2021), Tipo libro, Tela, Negro','24.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94619801'),
 	 ('ebooks','Funda eReader - Kobo Sleepcover, Para eReader Kobo Libra 2, Lavanda','30.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98184379'),
 	 ('ebooks','Funda eReader - Kobo Sleepcover, Para eReader Kobo Libra 2, Rojo Amapola','39.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98184375');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ebooks','Funda eReader - Kobo Sleepcover Clara HD, Negro','29.99','https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-79139499'),
 	 ('ebooks','Funda eReader - Maillon Technologique Travel MTEBOOK6TRAVEL, Para eBook de 6", Tipo libro, Universal, Multicolor','12.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_94298789'),
 	 ('ebooks','Funda eReader - Silver HT 111937140199, 6", para libro electrónico','13.99','https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-78695394'),
@@ -482,7 +482,7 @@ INSERT INTO tfg.producto (categoria,name,price,url) VALUES
 	 ('ebooks','Funda eReader - Kobo Sleepcover, Para eReader Kobo Clara 2E, Verde Marino','22.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98184391'),
 	 ('ebooks','Funda eReader - Kobo Sleepcover Clara HD, Rojo','29.99','https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-79139504'),
 	 ('ebooks','Funda eReader - Vam Vam Tie Dye, Para eBook 6", Ajustable, Con Portatarjetas y Portadocumentos, Multicolor','19.99','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_90699559');
-INSERT INTO tfg.producto (categoria,name,price,url) VALUES
+INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('ebooks','Funda eReader - Kobo Sleepcover Clara HD, Azul','29.99','https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-79139501'),
 	 ('ebooks','eReader  - InkPad 3 POCKETBOOK, 7,8 ", 8 GB, 1404 x 1872, Negro','277.83','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_92610255'),
 	 ('ebooks','E-book  - 4016621129262 TOLINO, 7 ", 4 GB, 1680 Pixeles, E Ink, Multicolor','208','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_98520891'),
