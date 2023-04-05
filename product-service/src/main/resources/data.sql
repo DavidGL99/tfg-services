@@ -1,3 +1,19 @@
+CREATE TABLE tfg.categoria (
+	categoria varchar NOT NULL,
+	CONSTRAINT categoria_pk PRIMARY KEY (categoria)
+);
+
+CREATE TABLE tfg.producto (
+	id serial4 NOT NULL,
+	categoria varchar(255) NULL,
+	"name" varchar(255) NULL,
+	price varchar(255) NULL,
+	url varchar(255) NULL,
+	CONSTRAINT producto_pkey PRIMARY KEY (id)
+);
+
+ALTER TABLE tfg.producto ADD CONSTRAINT producto_fk FOREIGN KEY (categoria) REFERENCES tfg.categoria(categoria);
+
 INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil - ASUS VivoBook F1605PA-MB090W, 16" WUXGA, Intel® Core™ i7-11370H, 16GB RAM, 512GB SSD, Iris® Xe Graphics, W11H','899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102806874'),
 	 ('portatiles','Portátil - HP 14s-dq5001ns, 14" Full HD, Intel® Core™ i5-1235U, 8GB RAM, 512GB SSD, Iris® Xᵉ, W11 H','649','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102839724'),
