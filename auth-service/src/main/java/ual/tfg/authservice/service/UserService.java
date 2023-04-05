@@ -1,4 +1,4 @@
-package ual.tfg.monolith.service;
+package ual.tfg.authservice.service;
 
 import ual.tfg.authservice.dto.UserDto;
 import ual.tfg.authservice.dto.TokenDto;

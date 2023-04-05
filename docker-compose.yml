@@ -4,6 +4,10 @@ services:
     build: ./product-service
     environment:
       - "DATABASE_NAME=producto"
+      - CONFIG_HOST=config-service
+      - EUREKA_HOST=eureka-service
+    networks:
+      - local
   producto:
     image: postgres:14.1-alpine
     ports:
@@ -12,6 +16,8 @@ services:
       - "POSTGRES_USER=postgres"
       - "POSTGRES_PASSWORD=root"
 
+    networks:
+      - local
     volumes:
       - ./db:/var/lib/db/producto
       - ./product-service/sql/product.sql:/docker-entrypoint-initdb.d/init.sql
@@ -21,9 +27,22 @@ services:
 
   gateway-service:
     build: ./gateway-service
-
+    networks:
+      - local
+    environment:
+      - PRODUCT_HOST=product-service
+      - CONFIG_HOST=config-service
+      - REGISTRY_HOST=eureka-service
   config-service:
     build: ./config-service
-
+    networks:
+      - local
   eureka-service:
     build: ./eureka-service
+    environment:
+      - CONFIG_HOST=config-service
+    networks:
+      - local
+
+networks:
+  local:
