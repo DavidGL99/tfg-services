@@ -12,12 +12,10 @@ eureka:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
+    url: jdbc:h2:mem:mydb
+    username: root
     password: root
+    driverClassName: org.h2.Driver
   jpa:
-    show-sql: false
-    properties:
-      hibernate:
-        default_schema: tfg
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
