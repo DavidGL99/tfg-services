@@ -26,19 +26,13 @@ services:
     expose:
       - 5432
 
-  gateway-service:
-    build: ./gateway-service
-    networks:
-      - local
-    environment:
-      - PRODUCT_HOST=product-service
-      - CONFIG_HOST=config-service
-      - REGISTRY_HOST=eureka-service
-      - WAIT_HOSTS=eureka-service:8761,
+
   config-service:
     build: ./config-service
     networks:
       - local
+    expose:
+      - 8086
   eureka-service:
     build: ./eureka-service
     environment:
@@ -46,6 +40,7 @@ services:
       - WAIT_HOSTS=config-service:8086
     networks:
       - local
-
+    expose:
+      - 8761
 networks:
   local:
