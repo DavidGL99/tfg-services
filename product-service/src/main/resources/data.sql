@@ -2,9 +2,9 @@ CREATE TABLE categoria (
 	categoria varchar NOT NULL,
 	CONSTRAINT categoria_pk PRIMARY KEY (categoria)
 );
-
+CREATE SEQUENCE producto_id_seq;
 CREATE TABLE producto (
-	id serial4 NOT NULL,
+	id integer NOT NULL DEFAULT nextval('people_id_seq'),
 	categoria varchar(255) NULL,
 	"name" varchar(255) NULL,
 	price varchar(255) NULL,
