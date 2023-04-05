@@ -1,9 +1,9 @@
-CREATE TABLE tfg.categoria (
+CREATE TABLE categoria (
 	categoria varchar NOT NULL,
 	CONSTRAINT categoria_pk PRIMARY KEY (categoria)
 );
 
-CREATE TABLE tfg.producto (
+CREATE TABLE producto (
 	id serial4 NOT NULL,
 	categoria varchar(255) NULL,
 	"name" varchar(255) NULL,
