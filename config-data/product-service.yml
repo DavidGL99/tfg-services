@@ -18,4 +18,3 @@ spring:
     driverClassName: org.h2.Driver
   jpa:
     spring.jpa.database-platform.database-platform: org.hibernate.dialect.H2Dialect
-    spring.jpa.defer-datasource-initialization: true
