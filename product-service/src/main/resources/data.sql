@@ -12,7 +12,7 @@ CREATE TABLE producto (
 	CONSTRAINT producto_pkey PRIMARY KEY (id)
 );
 
-ALTER TABLE tfg.producto ADD CONSTRAINT producto_fk FOREIGN KEY (categoria) REFERENCES tfg.categoria(categoria);
+ALTER TABLE producto ADD CONSTRAINT producto_fk FOREIGN KEY (categoria) REFERENCES categoria(categoria);
 
 INSERT INTO producto (categoria,name,price,url) VALUES
 	 ('portatiles','Portátil - ASUS VivoBook F1605PA-MB090W, 16" WUXGA, Intel® Core™ i7-11370H, 16GB RAM, 512GB SSD, Iris® Xe Graphics, W11H','899','https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102806874'),
