@@ -6,6 +6,7 @@ services:
       - "DATABASE_NAME=producto"
       - CONFIG_HOST=config-service
       - EUREKA_HOST=eureka-service
+      - WAIT_HOSTS=eureka-service:8761
     networks:
       - local
   producto:
@@ -33,6 +34,7 @@ services:
       - PRODUCT_HOST=product-service
       - CONFIG_HOST=config-service
       - REGISTRY_HOST=eureka-service
+      - WAIT_HOSTS=eureka-service:8761,
   config-service:
     build: ./config-service
     networks:
@@ -41,6 +43,7 @@ services:
     build: ./eureka-service
     environment:
       - CONFIG_HOST=config-service
+      - WAIT_HOSTS=config-service:8086
     networks:
       - local
 
