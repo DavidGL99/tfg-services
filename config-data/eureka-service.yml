@@ -8,3 +8,27 @@ eureka:
     register-with-eureka: false
     service-url: 
       default-zone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+---
+spring:
+  zipkin:
+    base-url: http://${ZIPKIN_HOST:localhost}:9411/
+    sender:
+      type: rabbit
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
