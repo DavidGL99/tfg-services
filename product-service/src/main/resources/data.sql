@@ -4,7 +4,7 @@ CREATE TABLE categoria (
 );
 CREATE SEQUENCE producto_id_seq;
 CREATE TABLE producto (
-	id integer NOT NULL DEFAULT nextval('producto_id_seq'),
+	id integer NOT NULL DEFAULT nextval('producto<  _id_seq'),
 	categoria varchar(255) NULL,
 	"name" varchar(255) NULL,
 	price varchar(255) NULL,
