@@ -7,11 +7,38 @@ services:
     environment:
       - WAIT_HOSTS=eureka-service:8761
       - CONFIG_HOST=config-service
-      - EUREKA_HOST=eureka-service
+      - EUREKA_URI=http://eureka-service:8761/eureka
     depends_on:
       - eureka-service
     links:
       - eureka-service
+
+  product-service2:
+    build: ./product-service
+    ports:
+      - "8082:8080"
+    environment:
+      - WAIT_HOSTS=eureka-service:8761
+      - CONFIG_HOST=config-service
+      - EUREKA_URI=http://eureka-service:8761/eureka
+    depends_on:
+      - eureka-service
+    links:
+      - eureka-service
+
+  product-service3:
+    build: ./product-service
+    ports:
+      - "8083:8080"
+    environment:
+      - WAIT_HOSTS=eureka-service:8761
+      - CONFIG_HOST=config-service
+      - EUREKA_URI=http://eureka-service:8761/eureka
+    depends_on:
+      - eureka-service
+    links:
+      - eureka-service
+
 
   config-service:
     build: ./config-service
@@ -19,6 +46,19 @@ services:
       - "8086:8086"
     expose:
       - 8086
+
+
+  gateway-service:
+    build: ./gateway-service
+    ports:
+      - "8080:8080"
+    environment:
+      - WAIT_HOSTS=eureka-service:8761
+      - CONFIG_HOST=config-service
+      - EUREKA_URI=http://eureka-service:8761/eureka
+    expose:
+      - 8080
+
 
   eureka-service:
     build: ./eureka-service
