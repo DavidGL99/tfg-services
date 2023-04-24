@@ -1,53 +1,42 @@
 version: '3'
 services:
-  product:
+  product-service:
     build: ./product-service
     ports:
-      - "8081:8080"
+      - "8080:8081"
     environment:
-      - WAIT_HOSTS=registry:8761
-      - CONFIG_HOST=config
-      - EUREKA_HOST=eureka
+      - WAIT_HOSTS=eureka-service:8761
+      - CONFIG_HOST=config-service
+      - EUREKA_HOST=eureka-service
     depends_on:
-      - eureka
+      - eureka-service
     networks:
       - local
 
-
-  gateway:
-    build: ./gateway-service
-    ports:
-      - "8080:8080"
-    environment:
-      - CONFIG_HOST=config
-      - REGISTRY_HOST=registry
-      - PRODUCT_HOST=product
-      - WAIT_HOSTS=product:8080
-    networks:
-      - local
-
-  config:
+  config-service:
     build: ./config-service
     ports:
       - "8086:8086"
     networks:
       - local
+    environment:
+      - EUREKA_HOST=eureka-service
     expose:
       - 8086
 
-  eureka:
+  eureka-service:
     build: ./eureka-service
     environment:
-      - CONFIG_HOST=config
-      - WAIT_HOSTS=config:8086
-      - ZIPKIN_HOST=zipkin
+      - CONFIG_HOST=config-service
+      - WAIT_HOSTS=config-service:8086
+      - EUREKA_HOST=eureka-service
 
     ports:
       - "8761:8761"
     networks:
       - local
     links:
-      - config
+      - config-service
     expose:
       - 8761
 

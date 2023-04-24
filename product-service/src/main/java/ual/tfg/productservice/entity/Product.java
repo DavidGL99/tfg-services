@@ -15,7 +15,6 @@ public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(columnDefinition = "serial4")
     Long id;
     @Column(name = "name")
 
