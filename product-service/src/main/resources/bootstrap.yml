@@ -5,14 +5,7 @@ spring:
     config:
       enabled: true
       uri: http://${CONFIG_HOST:localhost}:8086
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      default-zone: http://${EUREKA_HOST:localhost}:8761/eureka
-  instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
 
 
 

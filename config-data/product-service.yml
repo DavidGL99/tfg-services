@@ -11,3 +11,13 @@ spring:
   jpa:
     defer-datasource-initialization: true
     spring.jpa.database-platform.database-platform: org.hibernate.dialect.H2Dialect
+
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://${EUREKA_HOST:localhost}:8761/eureka
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
