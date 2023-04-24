@@ -13,7 +13,3 @@ spring:
     spring.jpa.database-platform.database-platform: org.hibernate.dialect.H2Dialect
 
 
-eureka:
-  client:
-    service-url:
-      default-zone: http://${EUREKA_HOST:localhost}:8761/eureka/

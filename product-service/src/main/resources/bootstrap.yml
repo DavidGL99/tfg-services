@@ -7,6 +7,10 @@ spring:
       uri: http://${CONFIG_HOST:localhost}:8086
 
 
+eureka:
+  client:
+    service-url:
+      default-zone: http://${EUREKA_HOST:localhost}:8761/eureka/
 
 
 

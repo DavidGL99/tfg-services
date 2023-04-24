@@ -3,24 +3,20 @@ services:
   product-service:
     build: ./product-service
     ports:
-      - "8080:8081"
+      - "8081:8080"
     environment:
       - WAIT_HOSTS=eureka-service:8761
       - CONFIG_HOST=config-service
       - EUREKA_HOST=eureka-service
     depends_on:
       - eureka-service
-    networks:
-      - local
+    links:
+      - eureka-service
 
   config-service:
     build: ./config-service
     ports:
       - "8086:8086"
-    networks:
-      - local
-    environment:
-      - EUREKA_HOST=eureka-service
     expose:
       - 8086
 
@@ -29,16 +25,9 @@ services:
     environment:
       - CONFIG_HOST=config-service
       - WAIT_HOSTS=config-service:8086
-      - EUREKA_HOST=eureka-service
-
     ports:
       - "8761:8761"
-    networks:
-      - local
     links:
       - config-service
     expose:
       - 8761
-
-networks:
-  local:
