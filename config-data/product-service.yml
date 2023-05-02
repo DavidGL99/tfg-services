@@ -1,16 +1,17 @@
 server:
   port: ${PORT:${SERVER_PORT:0}}
-
+  
 spring:
-  sql.init.mode: always
   datasource:
-    url: jdbc:h2:mem:mydb
-    username: root
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
     password: root
-    driverClassName: org.h2.Driver
   jpa:
-    defer-datasource-initialization: true
-    spring.jpa.database-platform.database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: false
+    properties:
+      hibernate:
+        default_schema: tfg
+        dialect: org.hibernate.dialect.PostgreSQLDialect
 
 
 
