@@ -1,6 +1,6 @@
 server:
   port: 8080
-
+  
 eureka:
   client:
     fetch-registry: true
@@ -9,16 +9,10 @@ eureka:
       default-zone: http://localhost:8761/eureka
   instance:
     hostname: localhost
-    
+
 spring:
   cloud:
-    loadbalancer:
-      ribbon:
-        enabled: false
     gateway:
-      filter: 
-        redirect-to: 
-          enabled: true
       globalcors:
           corsConfigurations:
             '[/**]':
@@ -41,19 +35,15 @@ spring:
           uri: lb://cart-service
           predicates:
             - Path=/cart/**
-
         - id: order-service
           uri: lb://order-service
           predicates:
             - Path=/order/**
-
         - id: product-service
           uri: lb://product-service
           predicates:
             - Path=/product/**
-
         - id: review-service
           uri: lb://review-service
           predicates:
             - Path=/review/**
-
