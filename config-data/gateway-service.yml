@@ -13,9 +13,6 @@ eureka:
     
 spring:
   cloud:
-    loadbalancer:
-      ribbon:
-        enabled: false
     gateway:
       globalcors:
           corsConfigurations:
