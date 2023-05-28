@@ -1,16 +1,12 @@
 server:
   port: 8080
-
 eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      default-zone: http://localhost:8761/eureka
-  instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-    hostname: localhost
-    
+      default-zone: http://${REGISTRY_HOST:localhost}:8761/eureka/
+
 spring:
   cloud:
     gateway:
@@ -23,6 +19,10 @@ spring:
               - GET
               - POST
               - DELETE
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
       routes:
         - id: auth-service
           uri: lb://auth-service
