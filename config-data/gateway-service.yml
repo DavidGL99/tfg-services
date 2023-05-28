@@ -7,6 +7,9 @@ spring:
       ribbon:
         enabled: false
     gateway:
+      httpclient:
+        response-timeout: 2s
+
       globalcors:
           corsConfigurations:
             '[/**]':
@@ -25,19 +28,29 @@ spring:
           uri: lb://auth-service
           predicates:
             - Path=/auth/**
+          metadata:
+            response-timeout: 3000
         - id: cart-service
           uri: lb://cart-service
           predicates:
             - Path=/cart/**
+          metadata:
+            response-timeout: 3000
         - id: order-service
           uri: lb://order-service
           predicates:
             - Path=/order/**
+          metadata:
+            response-timeout: 3000
         - id: product-service
           uri: lb://product-service
           predicates:
             - Path=/product/**
+          metadata:
+            response-timeout: 3000
         - id: review-service
           uri: lb://review-service
           predicates:
             - Path=/review/**
+          metadata:
+            response-timeout: 3000
