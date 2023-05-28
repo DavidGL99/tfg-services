@@ -9,7 +9,9 @@ spring:
     gateway:
       httpclient:
         response-timeout: 2s
-
+      filter: 
+        redirect-to: 
+          enabled: true
       globalcors:
           corsConfigurations:
             '[/**]':
