@@ -10,6 +10,8 @@ spring:
       filter:
         redirect-to:
           enabled: true
+      httpclient:
+        connect-timeout: 90000
       globalcors:
           corsConfigurations:
             '[/**]':
