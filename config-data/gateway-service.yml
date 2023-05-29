@@ -5,8 +5,8 @@ spring:
   cloud:
     loadbalancer:
       retry:
-        max-retries-on-next-service-instance: 3
-        max-retries-on-same-service-instance: 3
+        max-retries-on-next-service-instance: 5
+        max-retries-on-same-service-instance: 5
         retry-on-all-exceptions: true
         retry-on-all-operations: true
     gateway:
