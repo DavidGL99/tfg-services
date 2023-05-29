@@ -1,15 +1,15 @@
 server:
-  port: 8080
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      default-zone: http://${REGISTRY_HOST:localhost}:8761/eureka/
+  port: 8081
 
 spring:
   cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
     gateway:
+      filter:
+        redirect-to:
+          enabled: true
       globalcors:
           corsConfigurations:
             '[/**]':
