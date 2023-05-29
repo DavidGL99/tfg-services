@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 
 spring:
   cloud:
@@ -12,6 +12,8 @@ spring:
           enabled: true
         redirect-to:
           enabled: true
+        request-rate-limiter:
+          enabled: false
       httpclient:
         connect-timeout: 90000
       globalcors:
