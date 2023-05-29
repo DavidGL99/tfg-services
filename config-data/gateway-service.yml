@@ -8,6 +8,8 @@ spring:
         enabled: false
     gateway:
       filter:
+        circuit-breaker:
+          enabled: true
         redirect-to:
           enabled: true
       httpclient:
