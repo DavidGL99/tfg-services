@@ -1,12 +1,10 @@
 server:
-  port: 8080
+  port: 8081
 
 spring:
   cloud:
     loadbalancer:
-      ribbon:
-        enabled: false
-       retry: 
+      retry:
         max-retries-on-next-service-instance: 5
         max-retries-on-same-service-instance: 5
         retry-on-all-exceptions: true
@@ -19,8 +17,7 @@ spring:
           enabled: true
         request-rate-limiter:
           enabled: false
-      httpclient:
-        connect-timeout: 90000
+
       globalcors:
           corsConfigurations:
             '[/**]':
