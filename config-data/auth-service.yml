@@ -10,7 +10,10 @@ spring:
     show-sql: false
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+        dialect: org.hibernate.dialect.PostgreSQLDialect    
+     hibernate:
+      ddl-auto: create
+
 
 
 
@@ -22,5 +25,3 @@ eureka:
       default-zone: ${EUREKA_URI:http://localhost:8761/eureka}
   instance: 
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-    hibernate:
-      ddl-auto: create
