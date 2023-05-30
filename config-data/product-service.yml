@@ -10,7 +10,6 @@ spring:
     show-sql: false
     properties:
       hibernate:
-        default_schema: tfg
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
 
