@@ -12,11 +12,8 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect    
     hibernate:
+      generate-ddl: true
       ddl-auto: create
-
-
-
-
 eureka:
   client:
     fetch-registry: true
