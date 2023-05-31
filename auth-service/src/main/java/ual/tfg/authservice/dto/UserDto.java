@@ -1,13 +1,11 @@
 package ual.tfg.authservice.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
+@Getter
+@Setter
 @Builder
 public class UserDto {
 
@@ -15,6 +13,5 @@ public class UserDto {
     private String password;
     private String name;
     private String lastnames;
-
     private String token;
 }

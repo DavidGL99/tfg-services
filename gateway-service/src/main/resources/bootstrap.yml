@@ -12,3 +12,21 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+
+server:
+  netty:
+    threads:
+      max: 1000
+
+reactor:
+  netty:
+    connection:
+      provider:
+        active:
+          connections: 2000
+        max:
+          connections: 2000
+      total:
+        connections: 2000
+    pool:
+      maxConnections: 2000
