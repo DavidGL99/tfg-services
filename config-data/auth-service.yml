@@ -14,11 +14,10 @@ spring:
     hibernate:
       generate-ddl: true
       ddl-auto: create
+
 eureka:
   client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url: 
-      default-zone: http://${EUREKA_HOST:localhost}:8761/eureka}
+    serviceUrl:
+      defaultZone: http://${EUREKA_HOST:localhost}:8761/eureka}
   instance: 
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
