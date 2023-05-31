@@ -5,35 +5,83 @@ services:
     ports:
       - "8081:8080"
     environment:
-      - WAIT_HOSTS=gateway-service:8080
+      - WAIT_HOSTS=eureka-service:8761
       - CONFIG_HOST=config-service
       - EUREKA_URI=http://eureka-service:8761/eureka
+      - DATABASE_HOST=productdb
+      - DATABASE_PORT=5432
+      - WAIT_TIMEOUT=1800
+      - WAIT_SLEEP_INTERVAL=5
     depends_on:
       - eureka-service
     links:
       - eureka-service
 
-  product-service2:
-    build: ./product-service
+  auth-service:
+    build: ./auth-service
+    ports:
+      - "8085:8080"
+    environment:
+      - WAIT_HOSTS=eureka-service:8761
+      - CONFIG_HOST=config-service
+      - EUREKA_URI=http://eureka-service:8761/eureka
+      - DATABASE_HOST=authdb
+      - DATABASE_PORT=5432
+      - WAIT_TIMEOUT=1800
+      - WAIT_SLEEP_INTERVAL=5
+    depends_on:
+      - eureka-service
+    links:
+      - eureka-service
+
+
+  order-service:
+    build: ./order-service
     ports:
       - "8082:8080"
     environment:
-      - WAIT_HOSTS=gateway-service:8080
+      - WAIT_HOSTS=eureka-service:8761
       - CONFIG_HOST=config-service
       - EUREKA_URI=http://eureka-service:8761/eureka
+      - DATABASE_HOST=orderdb
+      - DATABASE_PORT=5432
+      - WAIT_TIMEOUT=1800
+      - WAIT_SLEEP_INTERVAL=5
     depends_on:
       - eureka-service
     links:
       - eureka-service
 
-  product-service3:
-    build: ./product-service
+  cart-service:
+    build: ./cart-service
     ports:
       - "8083:8080"
     environment:
-      - WAIT_HOSTS=gateway-service:8080
+      - WAIT_HOSTS=eureka-service:8761
       - CONFIG_HOST=config-service
       - EUREKA_URI=http://eureka-service:8761/eureka
+      - DATABASE_HOST=cartdb
+      - DATABASE_PORT=5432
+      - WAIT_TIMEOUT=1800
+      - WAIT_SLEEP_INTERVAL=5
+    depends_on:
+      - eureka-service
+    links:
+      - eureka-service
+
+
+  review-service:
+    build: ./review-service
+    ports:
+      - "8084:8080"
+    environment:
+      - WAIT_HOSTS=eureka-service:8761
+      - CONFIG_HOST=config-service
+      - EUREKA_URI=http://eureka-service:8761/eureka
+      - DATABASE_HOST=reviewdb
+      - DATABASE_PORT=5432
+      - WAIT_TIMEOUT=1800
+      - WAIT_SLEEP_INTERVAL=5
     depends_on:
       - eureka-service
     links:
@@ -53,9 +101,11 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - WAIT_HOSTS=eureka-service:8761
+      - WAIT_HOSTS=product-service:8081
+      - WAIT_TIMEOUT=1800
       - CONFIG_HOST=config-service
       - EUREKA_URI=http://eureka-service:8761/eureka
+      - WAIT_SLEEP_INTERVAL=5
     expose:
       - 8080
     depends_on:
@@ -75,3 +125,60 @@ services:
       - config-service
     expose:
       - 8761
+
+  productdb:
+    image: postgres:9.4
+    environment:
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=root"
+      - "POSTGRES_DB=productdb"
+    volumes:
+      - ./init-scripts/data.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    expose:
+      - 5432
+
+  authdb:
+    image: postgres:9.4
+    environment:
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=root"
+      - "POSTGRES_DB=authdb"
+    ports:
+      - "5433:5432"
+    expose:
+      - 5432
+
+  orderdb:
+    image: postgres:9.4
+    environment:
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=root"
+      - "POSTGRES_DB=orderdb"
+    ports:
+      - "5434:5432"
+    expose:
+      - 5432
+
+  cartdb:
+    image: postgres:9.4
+    environment:
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=root"
+      - "POSTGRES_DB=cartdb"
+    ports:
+      - "5435:5432"
+    expose:
+      - 5432
+
+  reviewdb:
+    image: postgres:9.4
+    environment:
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=root"
+      - "POSTGRES_DB=reviewdb"
+    ports:
+      - "5436:5432"
+    expose:
+      - 5432
